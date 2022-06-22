@@ -1,0 +1,44 @@
+.button-commercial-offer {
+  padding-left: 16px;
+  padding-right: 16px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+.button-commercial-offer__description {
+  font-family: "TT Lakes";
+  font-size: 14px;
+  line-height: 20px;
+  color: #1B1C21;
+}
+@media screen and (min-width: 767px) and (max-width: 1440px) {
+  .button-commercial-offer__description {
+    width: 416px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .button-commercial-offer__description {
+    width: 416px;
+  }
+}
+.button-commercial-offer__button {
+  text-align: left;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  transition: filter 0.2s;
+  cursor: pointer;
+}
+.button-commercial-offer__button:hover, .button-commercial-offer__button:focus {
+  filter: drop-shadow(0 0 8px #1B1C21);
+  outline: none;
+}
+.button-commercial-offer__text {
+  font-family: "TT Lakes Medium";
+  font-size: 16px;
+  line-height: 24px;
+}
+.button-commercial-offer__image {
+  vertical-align: top;
+  display: inline;
+  transition: filter 0.5s;
+}/*# sourceMappingURL=button-commercial-offer.css.map */

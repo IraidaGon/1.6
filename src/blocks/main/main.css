@@ -1,0 +1,120 @@
+.main {
+  text-align: left;
+  color: #1b1c21;
+  background-color: #F8F8F8;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  border-top: 1px solid #D9FFF5;
+  border-bottom: 1px solid #D9FFF5;
+}
+@media screen and (min-width: 768px) and (max-width: 1440px) {
+  .main {
+    margin-right: 8px;
+  }
+}
+.main__header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.main__heading {
+  margin-right: auto;
+}
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .main__heading {
+    margin: 24px 0;
+  }
+}
+.main__menu {
+  align-items: center;
+}
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .main__menu {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1440px) {
+  .main__menu {
+    display: none;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .main__menu {
+    display: flex;
+  }
+}
+.main__link {
+  font-weight: bold;
+  text-decoration: none;
+  color: #1b1c21;
+}
+.main__button-text {
+  padding: 8px 32px;
+  color: #7E7E82;
+  white-space: nowrap;
+  flex-shrink: 0;
+  box-sizing: border-box;
+  border: 2px solid transparent;
+}
+.main__button-text:focus {
+  background-color: white;
+}
+.main__button-icon {
+  margin-left: 8px;
+  margin-right: 32px;
+}
+.main__navigation-bar {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 24px;
+  scrollbar-width: none;
+  /* Firefox */
+  -ms-overflow-style: none;
+}
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .main__navigation-bar {
+    flex-wrap: nowrap;
+    overflow: auto;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1440px) {
+  .main__navigation-bar {
+    flex-wrap: nowrap;
+    overflow: auto;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .main__navigation-bar {
+    flex-wrap: wrap;
+  }
+}
+.main__navigation-bar::-webkit-scrollbar {
+  display: none;
+}
+.main__fade {
+  position: absolute;
+  height: 100%;
+  left: 92.5%;
+  right: 0%;
+  z-index: 2;
+  background-image: linear-gradient(to left, #F8F8F8 20%, rgba(248, 248, 248, 0.0001) 100%);
+}
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .main__fade {
+    display: inline;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1440px) {
+  .main__fade {
+    display: inline;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .main__fade {
+    display: none;
+  }
+}/*# sourceMappingURL=main.css.map */

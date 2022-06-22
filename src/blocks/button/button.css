@@ -1,0 +1,32 @@
+.button {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding-left: 8px;
+  width: 136px;
+  height: 32px;
+  background-color: #FF3E79;
+  border-radius: 16px;
+  border-width: 0;
+  text-align: right;
+  cursor: pointer;
+}
+.button__label {
+  font-size: 12px;
+  line-height: 24px;
+  font-weight: bold;
+  color: white;
+  text-align: right;
+  text-transform: uppercase;
+  padding-right: 8px;
+  cursor: pointer;
+}
+.button__label:hover, .button__label:focus {
+  filter: drop-shadow(0 0 8px #FF3E79);
+  outline: none;
+}
+.button:hover, .button:focus {
+  filter: drop-shadow(0 0 8px #FF3E79);
+  outline: none;
+}/*# sourceMappingURL=button.css.map */

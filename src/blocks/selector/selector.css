@@ -1,0 +1,54 @@
+.selector {
+  background-color: inherit;
+}
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .selector__wrapper {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    padding-left: 16px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1440px) {
+  .selector__wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow: hidden;
+    padding-left: 24px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .selector__wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow: hidden;
+    padding-left: 32px;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .selector__item {
+    margin: 16px 8px 0 0;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1440px) {
+  .selector__item {
+    margin: 24px 24px 0 0;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .selector__item {
+    margin: 24px 24px 0 0;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1440px) {
+  .selector__more {
+    margin-left: 24px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .selector__more {
+    margin-left: 32px;
+  }
+}/*# sourceMappingURL=selector.css.map */

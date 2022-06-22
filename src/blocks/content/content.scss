@@ -1,0 +1,52 @@
+$screen-sm: 320px;
+$screen-md: 767px;
+$screen-xl: 1440px;
+
+$step: 8px;
+
+.content {
+  display: flex;
+  padding-bottom: 40px; 
+
+  @media screen and (min-width: $screen-sm) and (max-width: $screen-md) {
+    flex-direction: column;
+  }
+  @media screen and (min-width: $screen-md) and (max-width: $screen-xl) {
+    flex-direction: row;
+  }
+  @media screen and (min-width: $screen-xl) {
+    flex-direction: row;
+  }
+
+  &__image {
+    flex-grow: 1;
+    flex-shrink: 1;
+    background-image: url("../img/logo_photo.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    // background-position: center;
+
+    @media screen and (min-width: $screen-sm) and (max-width: $screen-md) {
+      flex-basis: 35vh;
+      background-position: left; 
+      background-size: contain;
+    }
+    @media screen and (min-width: $screen-md) and (max-width: $screen-xl) {
+      flex-basis: 360px;
+      min-height: 30vh;
+      margin: 14px 0 14px 48px;
+      border-radius: 15px;
+    }
+    @media screen and (min-width: $screen-xl) {
+      flex-basis: 300px;
+      height: 300px;
+      padding: 0 0 20px 0;
+    }
+  }
+
+  &__text {
+    padding: 12px 16px;
+    font-size: 14px;
+    line-height: 20px;
+  }
+}

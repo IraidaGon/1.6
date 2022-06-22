@@ -1,0 +1,43 @@
+$screen-sm: 320px;
+$screen-md: 767px;
+$screen-xl: 1440px;
+
+$step: 8px;
+
+.price-list {
+
+  &__swiper {
+    @media screen and (min-width: $screen-sm) and (max-width: $screen-md) {
+      display: flex;
+    }
+    @media screen and (min-width: $screen-md) and (max-width: $screen-xl) {
+      //display: none;
+    }
+    @media screen and (min-width: $screen-xl) {
+      //display: none;
+    }
+  }
+
+  &__button-service {
+    @media screen and (min-width: $screen-sm) and (max-width: $screen-md) {
+    width: 260px;
+    // margin-right: 16px;
+    }
+    @media screen and (min-width: $screen-md) {
+    }
+    }
+
+  &__table {
+    @media screen and (min-width: $screen-sm) and (max-width: $screen-md) {
+      display: flex;
+      flex-direction: row;
+      // max-width: 94vmin;
+      //padding-left: $step * 3;
+    }
+    @media screen and (min-width: $screen-md) {
+      display: flex;
+      flex-direction: column;
+    }
+
+  }
+}

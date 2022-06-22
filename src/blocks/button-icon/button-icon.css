@@ -1,0 +1,50 @@
+.button-icon {
+  width: 40px;
+  height: 40px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: transparent;
+  border: none;
+  box-sizing: border-box;
+  transition: filter 0.2s;
+  cursor: pointer;
+}
+.button-icon:hover, .button-icon:focus {
+  filter: drop-shadow(0 0 8px #FF3E79);
+  outline: none;
+}
+.button-icon--burger {
+  background-image: url("../img/burger.svg");
+}
+@media screen and (min-width: 1440px) {
+  .button-icon--burger {
+    display: none;
+  }
+}
+.button-icon--call {
+  background-image: url("../img/call.svg");
+}
+.button-icon--chat {
+  background-image: url("../img/chat.svg");
+}
+.button-icon--check_status {
+  background-image: url("../img/check_status.svg");
+}
+.button-icon--profile {
+  background-image: url("../img/profile.svg");
+}
+.button-icon--repair {
+  background-image: url("../img/repair.svg");
+}
+.button-icon--search {
+  background-image: url("../img/search.svg");
+}
+.button-icon--cross {
+  background-image: url("../img/cross.svg");
+}
+.button-icon--go {
+  background-image: url("../img/go.svg");
+}
+.button-icon--hidden {
+  display: none;
+}/*# sourceMappingURL=button-icon.css.map */

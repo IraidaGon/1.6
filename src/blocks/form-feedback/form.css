@@ -1,0 +1,69 @@
+.form {
+  position: fixed;
+  top: 0;
+  background-color: white;
+  z-index: 4;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .form {
+    left: 0;
+    width: 100%;
+    flex-direction: column;
+  }
+}
+@media screen and (min-width: 767px) {
+  .form {
+    right: 0;
+    width: 440px;
+    box-shadow: 16px 0 52px rgba(14, 24, 80, 0.2);
+    height: 100vh;
+    flex-direction: row;
+  }
+}
+.form--visible {
+  display: flex;
+}
+.form--hidden {
+  display: none;
+}
+@media screen and (min-width: 767px) {
+  .form__header {
+    align-items: flex-start;
+    position: absolute;
+    left: -112px;
+    top: 32px;
+  }
+}
+.form__main {
+  display: flex;
+  flex-direction: column;
+  border-left: 1px solid #D9FFF5;
+}
+@media screen and (min-width: 767px) {
+  .form__main {
+    padding-top: 32px;
+  }
+}
+.form__heading {
+  text-align: left;
+}
+.form__form {
+  display: flex;
+  flex-direction: column;
+}
+.form__form-name {
+  margin: 8px 16px;
+}
+.form__form-phone {
+  margin: 8px 16px;
+}
+.form__form-email {
+  margin: 8px 16px;
+}
+.form__form-message {
+  margin: 8px 16px;
+}
+.form__form-submit-button {
+  margin: 8px 16px;
+  align-self: flex-end;
+}/*# sourceMappingURL=form.css.map */

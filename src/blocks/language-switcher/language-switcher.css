@@ -1,0 +1,8 @@
+.language-switcher__language {
+  padding: 2px;
+  margin-right: 4px;
+  border: 2px solid transparent;
+}
+.language-switcher__language--active {
+  color: #7E7E82;
+}/*# sourceMappingURL=language-switcher.css.map */

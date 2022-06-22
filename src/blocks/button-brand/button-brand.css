@@ -1,0 +1,21 @@
+.button-brand {
+  display: flex;
+}
+.button-brand__label {
+  background-color: white;
+  height: 72px;
+  border: 1px solid #EAEAEA;
+  border-radius: 6px;
+  box-sizing: border-box;
+  width: 240px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.button-brand__logo {
+  margin-left: 16px;
+}
+.button-brand__button {
+  margin-right: 16px;
+}

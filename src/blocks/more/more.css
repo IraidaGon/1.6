@@ -1,0 +1,46 @@
+.more {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex: 1 1 100px;
+}
+.more__content {
+  overflow: hidden;
+}
+.more__button {
+  background-repeat: no-repeat;
+  background-position: left center;
+  text-align: left;
+  padding: 6px;
+  font-family: "TT Lakes Medium";
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 24px;
+  color: #1B1C21;
+  background-size: 24px;
+  border: none;
+  box-sizing: border-box;
+  background-color: transparent;
+  width: 160px;
+  cursor: pointer;
+  align-items: center;
+}
+.more__button:hover, .more__button:focus {
+  filter: drop-shadow(0 0 8px #1B1C21);
+  outline: none;
+}
+.more__button--hidden {
+  display: none;
+}
+.more__text {
+  vertical-align: top;
+}
+.more__image {
+  transition: 0.5s;
+}
+.more__image--expand {
+  transform: rotate(0deg);
+}
+.more__image--hide {
+  transform: rotate(180deg);
+}/*# sourceMappingURL=more.css.map */

@@ -1,0 +1,32 @@
+.button-device {
+  display: flex;
+  cursor: pointer;
+}
+.button-device--hidden {
+  display: none;
+}
+.button-device__label {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 240px;
+  height: 160px;
+  box-sizing: border-box;
+  cursor: pointer;
+  padding: 16px;
+  border: 1px solid #EAEAEA;
+  background-color: white;
+  border-radius: 6px;
+}
+.button-device__title {
+  font-family: "TT Lakes Medium";
+  font-size: 16px;
+  line-height: 24px;
+  align-self: flex-start;
+}
+.button-device__button {
+  transition: filter 0.5s;
+}
+.button-device__button:hover {
+  filter: drop-shadow(0 0 8px #FF3E79);
+}/*# sourceMappingURL=button-device.css.map */

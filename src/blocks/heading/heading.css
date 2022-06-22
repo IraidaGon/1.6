@@ -1,0 +1,22 @@
+.heading {
+  border-left: 4px solid #41f6d7;
+  border-radius: 4px;
+  font-size: 28px;
+  font-weight: bold;
+  padding: 8px 24px;
+}
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .heading {
+    padding-left: 16px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1440px) {
+  .heading {
+    padding-left: 24px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .heading {
+    padding-left: 32px;
+  }
+}/*# sourceMappingURL=heading.css.map */

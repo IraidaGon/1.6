@@ -1,0 +1,15 @@
+.screen-blur {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 3;
+  background-color: rgba(255, 255, 255, 0.96);
+  width: 100vw;
+  height: 100vh;
+}
+.screen-blur--visible {
+  display: block;
+}
+.screen-blur--hidden {
+  display: none;
+}/*# sourceMappingURL=screen-blur.css.map */
